@@ -1,0 +1,31 @@
+application:
+  buxfer:
+    tags:
+      nh: NAGDA_HOME
+      gr: GROCERIES
+      cc: CHILDCARE
+      ut: UTILITIES
+      per: PERSONAL
+
+    credentials:
+      thb:
+        userName: vikas.on@gmail.com
+        password: BCTZ&3$4qWMmv9p
+      inr:
+        userName: vikas.on.app@gmail.com
+        password: wyqEiEWiTJSgXeb4
+  loan_config:
+    interest_rate_config_file: interest-rate-config.json
+    loan_transaction_file: loan-transaction-data.json
+#logging:
+#  level:
+#    org:
+#      springframework:
+#        web: DEBUG
+
+server:
+  port: 1234
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
